@@ -60,5 +60,5 @@ HTML5 Class: hm18
 -배열의특징  
 -array메소드활용 
 -문자열길이  
--string
+-String
      

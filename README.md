@@ -54,4 +54,11 @@ HTML5 Class: hm18
 -자바 스크립트 조건문  
 -자바스크립트 반복문 
 -break,continue열배움
+
+-wk11 
+-코어객체다루기  
+-배열의특징  
+-array메소드활용 
+-문자열길이  
+-string
      

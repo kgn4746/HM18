@@ -62,3 +62,9 @@ HTML5 Class: hm18
 -문자열길이  
 -String
      
+-wk12 
+-DOM객체의 구성요소  
+-DOM객체들 사이의 관계  
+-document.write작성법  
+-html문서의 동적 구성  
+-document객체 

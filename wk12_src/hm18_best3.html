@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm18 : Javascript BOM</title>
+    <style></style>
+
+    <script>
+      function load() {
+        var select = document.getElementById("site");
+        window.location = select.options[select.selectedIndex].value;
+      }
+    </script>
+  </head>
+  <body>
+    <h3>hm18이 가고싶은 나라선택</h3>
+    <hr />
+    각 나라에 대한 정보 선택
+    <select id="site">
+      <option>선택하시오 </option>
+      <option
+        value="https://terms.naver.com/entry.nhn?docId=967816&cid=43883&categoryId=43884"
+        >스위스 </option
+      ><option
+        value="https://terms.naver.com/entry.nhn?docId=1003103&cid=43899&categoryId=43900"
+        >영국 </option
+      ><option
+        value="https://terms.naver.com/entry.nhn?docId=1048869&cid=43926&categoryId=43927"
+        >프랑스
+      </option></select
+    >
+
+    <p>
+      <button onclick="load()">웹 사이트 접속</button>
+    </p>
+  </body>
+</html>

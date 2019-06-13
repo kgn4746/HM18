@@ -1,0 +1,46 @@
+<html>
+  <script>
+    function query() {
+      var ret = confirm("이동하시겠습니까?");
+      return ret; // confirm()의 리턴 값은 true 또는 false
+    }
+    function noAction(e) {
+      e.preventDefault(); // 이벤트의 디폴트 행동 강제취소
+    }
+    function startScroll(interval) {
+setInterval("autoScroll()", interval);
+}
+function autoScroll() {
+window.scrollBy(0,30); // 10픽셀 위로 이동
+}
+</script>
+</head>
+<body onload="startScroll(1000)">
+  </script>
+  <body>
+    <img src="media/ben.jpg" />
+
+    <a
+      href="https://www.melon.com/song/detail.htm?songId=31477685"
+      onclick="return query()"
+    >
+      180도듣기</a
+    ><br />
+    <img src="media/song2.jpg" />
+
+    <a
+      href="https://www.melon.com/song/detail.htm?songId=31777113"
+      onclick="return query()"
+    >
+      굿바이듣기</a
+    ><br />
+    <img src="media/song3.jpg" />
+    <a
+      href="https://www.melon.com/song/detail.htm?songId=31455159"
+      onclick="return query()"
+    >
+      너도 그냥 날 놓아주면돼 듣기<a
+    ><br />
+    <hr />
+  </body>
+</html>

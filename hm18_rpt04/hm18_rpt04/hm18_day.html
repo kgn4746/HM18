@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>내정보</title>
+    <script>
+      var p;
+      function init() {
+        // 문서가 완전히 로드되었을 때 호출
+        p = document.getElementById("p");
+        p.onmouseover = over; // over()를 onmouseover 리스너로 등록
+        p.onmouseout = out; // out()를 onmouseout 리스너로 등록
+      }
+      function over() {
+        p.style.backgroundColor = "red";
+      }
+      function out() {
+        p.style.backgroundColor = "plum";
+      }
+
+      // 문서가 완전히 로드되었을 때 호출
+    </script>
+  </head>
+  <body onload="init()" ,onload="qwer()">
+    <img
+      src="media/mytime.jpg"
+      width="200px"
+      height="300px"
+      style="left:150px; top:90px"
+    />
+    <hr />
+    <p id="p">옆에보이는 사진은 2학년1학기 시간표이다</p>
+    <p id="q">평일에는 수업을듣고 주말에는 수업들은것들을 정리를한다</p>
+  </body>
+</html>
